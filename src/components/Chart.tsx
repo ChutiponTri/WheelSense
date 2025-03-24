@@ -73,7 +73,7 @@ function Chart() {
     };
 
   // Create a new MQTT client and pass the dataCallback to handle incoming data
-  const mqtt = new MQTT("broker.emqx.io", 8083, "ton/server/m5", dataCallback);
+  const mqtt = new MQTT("broker.emqx.io", 8084, "ton/server/m5", dataCallback);
 
   return () => {
     // Clean up MQTT client
